@@ -150,7 +150,7 @@
     font-weight: 900;
     margin-bottom: 20px;
 }
-.discount-section-tittle-ligt {
+.discount-section-tittle-ligt,.light-color {
     color: #E55473;
 }
 .discount-section-description {
@@ -206,6 +206,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     border-radius: 5px;
 }
 /* this is subscribe section */
@@ -231,4 +232,29 @@
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 27px;
+}
+/* this is footer section */
+#footer-section {
+    background-color: #111010;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.footer-section-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 15px 273px 14px 320px;
+}
+.copyright-line {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
