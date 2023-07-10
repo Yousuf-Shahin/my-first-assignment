@@ -29,7 +29,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.header-btn {
+.header-btn, .btn-primary {
     background: #E55473;
     padding: 15px 30px;
     border-radius: 8px;
@@ -128,4 +128,43 @@
     color: rgba(39, 39, 39, 0.80);
     font-size: 14px;
     font-style: normal;
+}
+/* this is discount section */
+#discount-section {
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    text-align: center;
+    height: 60vh;
+    padding: 70px 240px 14px 188px;
+}
+.discount-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 95px;
+}
+.discount-tittle {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.discount-section-tittle-ligt {
+    color: #E55473;
+}
+.discount-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.discount-section-btn:hover {
+    background: #ff0037;
+    transition: 0.7s;
+}
+.discount-section-img {
+    width: 250px;
 }
