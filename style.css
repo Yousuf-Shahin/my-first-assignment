@@ -45,3 +45,87 @@
     width: 450px;
     padding-top: 60px;
 }
+
+/* this is featured section */
+#featured-section {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.featured-section-tittle {
+    color: #272727;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.featured-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px 350px 20px 350px;
+}
+.featured-section-photos {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.featured-section-img-1 {
+    width: 160px;
+    padding-top: 78px;
+}
+.featured-section-img-2 {
+    width: 160px;
+    padding-top: 82px;
+}.featured-section-img-3 {
+    width: 160px;
+    padding-top: 59px;
+}
+.featured-section-photo-1 ,.featured-section-photo-2 , .featured-section-photo-3 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px 0px 0px;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+.featured-section-photo-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.featured-section-photo-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.featured-section-flower-name {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: underline;
+    color: #272727;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    gap: 165px;
+}
+/* this is featured poster section */
+.featured-section-poster {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.featured-poster-img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+.featured-poster-img-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+    font-style: normal;
+}
