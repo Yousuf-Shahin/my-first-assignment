@@ -65,7 +65,8 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    padding: 0px 350px 20px 350px;
+    width: 600px;
+    margin: 0 auto;
 }
 .featured-section-photos {
     display: flex;
@@ -184,7 +185,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    margin: 15px 230px 23px 230px;
+    width: 600px;
+    margin: 0 auto;
 }
 .instagram-section-photos {
     display: flex;
@@ -249,7 +251,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 15px 273px 14px 320px;
+    width: 600px;
+    margin: 0 auto;
 }
 .copyright-line {
     color: rgba(255, 255, 255, 0.40);
