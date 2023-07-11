@@ -27,7 +27,7 @@
 .menu-item {
     cursor: pointer;
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 18px;
     padding: 10px 16px;
     text-decoration: none;
     color: white;
@@ -36,7 +36,7 @@
     background-color: rgb(255, 166, 0);
     transition: 0.5s;
     border-radius: 5px;
-    color: black;
+    color: white;
 }
 /* this is header section */
 #header-section {
@@ -87,7 +87,6 @@
 }
 .featured-section-tittle {
     color: #272727;
-    font-family: Lato;
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
@@ -137,7 +136,6 @@
     align-items: center;
     text-decoration: underline;
     color: #272727;
-    font-family: Lato;
     font-size: 15px;
     font-style: normal;
     gap: 165px;
@@ -199,6 +197,68 @@
 .discount-section-img {
     width: 250px;
 }
+/* this is branch section */
+#branch-section{
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 30px 50px 40px 50px;
+    text-align: center;
+}
+.branch-tittle {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.branch-subtitle {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 15px auto;
+}
+.shop-1,.shop-2,.shop-3,.shop-4 {
+    box-shadow: 0 10px 13px 1px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+}
+.branch-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.branch-2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+}
+.branch-name {
+    padding: 18px 0px 9px 0px;
+}
+.branch-description {
+    text-align: start;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.address-number {
+    text-align: start;
+}
+.branch-btn {
+    background: #E55473;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin: 40px 0px 0px 0px;
+}
+.branch-btn:hover {
+    background-color: #ff0037;
+    transition: 0.7s;
+}
 /* this is instagram section */
 #instagram-section {
    width: 80%; 
@@ -220,7 +280,7 @@
     font-weight: 400;
     line-height: 30px;
     width: 600px;
-    margin: 22px auto;
+    margin:10px 221px 25px auto;
 }
 .instagram-section-photos {
     display: flex;
@@ -288,7 +348,7 @@
     width: 600px;
     margin: 10px auto;
 }
-.copyright-line {
+.footer-copyright-alert {
     color: rgba(255, 255, 255, 0.40);
     font-size: 12px;
     font-style: normal;
